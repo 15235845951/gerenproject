@@ -1,0 +1,22 @@
+github
+1、在github上创建储存库
+2、将云端的仓库克隆到本地 
+   git clone https://github.com/YY-xiaolei/computer.git
+3、先将页面复制到克隆好的文件夹
+4、打开克隆好的文件夹
+   cd 文件夹名称
+5、添加内容
+   git add *
+6、查看状态
+   git status
+7、标记
+   git commit -m "第一次上传"
+8、上传
+   git push
+   用户名 密码
+https://15235845951.github.io/computer/计算八年级
+https://15235845951.github.io/phone/.360
+https://15235845951.github.io/wein/天气
+https://15235845951.github.io/Fanke/.凡客
+https://15235845951.github.io/game/.游戏
+https://15235845951.github.io/phonephoto/.手机平面

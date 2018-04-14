@@ -1,0 +1,436 @@
+/* @Author: Administrator
+* @Date:   2018-04-11 19:49:40
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-04-14 20:33:55
+*/
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a{
+	text-decoration: none
+}
+body{
+
+	background: url('../img/2345_image_file_copy_9.jpg');
+	/* box-sizing:border-box; */
+	background-size:cover;
+
+}
+/* 头部开始 */
+header{
+	width: 100%;
+	height: 72px;
+	
+	box-shadow:0 0 3px 2px rgba(0, 0, 0, 0.7) ;
+}
+.main{
+	width: 1146px;
+	height: 72px;
+	margin: 0 auto;
+	
+	overflow: hidden;
+	
+
+}
+.guru{
+	width: 81px;
+	height: 22px;
+	
+	margin: 22px 0 0 10px;
+	color: #333333;
+	font-size: 22px;
+	line-height: 22px;
+	font-weight: bold;
+	float: left;
+	position: relative;
+
+}
+.top--{
+	width: 330px;
+	height: 10px;
+	
+	float: right;
+	margin-right: 15px;
+	margin-top: 30px;
+}
+.top-- li{
+	font-size: 10px;
+	line-height: 10px;
+	float: left;
+	margin-right: 15px;
+}
+/* 头部结束 */
+/* 介绍开始 */
+.imformation{
+	width: 100%;
+	height: 542px;
+	
+}
+.main1{
+	width: 1146px;
+	height:100%;
+	margin: 0 auto;
+	
+	overflow: hidden;
+}
+.photo{
+	width: 539px;
+	height: 542px;
+
+	margin-left: 19px;
+	
+	float: left;
+	
+	
+}
+.photo1{
+	width: 300px;
+	height: 300px;
+    
+    margin-left: 125px;
+    margin-top: 150px;
+background: url('../img/Cache_-4a016e3e5ca21a87..jpg') no-repeat 0 0;
+background-size: cover;
+}
+.-right{
+	width: 585px;
+	height: 542px;
+	float: right;
+	
+}
+.aboutme{
+	width: 123px;
+	height: 16px;
+	
+	float: left;
+	margin-left: 28px;
+	margin-top: 5px;
+	font-size: 16px;
+	line-height: 16px;
+
+}
+.aboutme:hover{
+	color: yellow;
+}
+.informat{
+	width: 545px;
+	height: 128px;
+	
+	float: left;
+	margin-left: 25px;
+	margin-top: 29px;
+	font-size: 15px;
+	color: #888888;
+}
+.informat:hover{
+	color: red;
+}
+.format{
+	width: 545px;
+	height: 333px;
+	
+	margin-top: 30px;
+	float: left;
+	margin-left: 25px;
+}
+.format li{
+   width: 545px;
+   height: 35px;
+  
+   margin-top: 36px;
+
+}
+.format li:first-child{
+	margin-top: 0;
+}
+.format li a{
+   font-size: 10px;
+   color: #333333;
+}
+.format li h1{
+   font-size: 9px;
+   color: #333333;
+   float: right;
+   margin-right:122px ;
+   display: block;
+   margin-top: 10px;
+
+}
+.much{
+	width:540px;
+	height: 10px;
+	background: black;
+	float: left;
+	margin-left: 3px;
+	border-radius: 5px;
+
+}
+/* 介绍结束 */
+/* 技能开始 */
+.skill{
+	width: 100%;
+	height: 450px;
+	background: #686360;
+	overflow: hidden;
+}
+.skills{
+	width: 224px;
+	height: 43px;
+	
+	margin: 0 auto;
+	margin-top: 79px;
+	font-size: 43px;
+	line-height: 43px;
+	color: #0b98ea;
+
+}
+.skill2{
+	/* width: 1114px; */
+	width: 1200px;
+	height: 151px;
+	background: #686360;
+	margin-left: 200px;
+	margin-top: 86px;
+	float: left;
+	/* display: flex; */
+	overflow: hidden;
+
+}
+.skill2 li{
+	display: block;
+	width: 543px;
+	height: 22px;
+	background: #d6d5d4;
+	float: left;
+	
+
+}
+.skill2 li:nth-child(2n){
+	margin-left: 27px;
+	
+}
+.skill2 :nth-child(n+3){
+	margin-top: 42px;
+}
+.word{
+	width: 400px;
+	height: 22px;
+	font-size: 12px;
+	color: #ffffff;
+	float: left;
+	background: #f88c5e;
+	font-weight: bold;
+	line-height: 22px;
+}
+.much1{
+	width: 22px;
+	height: 22px;
+	
+	float: right;
+	font-size: 15px;
+	text-align: center;
+	line-height: 22px;
+	color:#0b98ea ;
+}
+.word1{
+	width: 350px;
+	height: 22px;
+	font-size: 12px;
+	color: #ffffff;
+	float: left;
+	background: #f88c5e;
+	font-weight: bold;
+	line-height: 22px;
+}
+.word2{
+	width: 300px;
+	height: 22px;
+	font-size: 12px;
+	color: #ffffff;
+	float: left;
+	background: #3498db;
+	font-weight: bold;
+	line-height: 22px;
+}
+.word3{
+	width: 400px;
+	height: 22px;
+	font-size: 12px;
+	color: #ffffff;
+	float: left;
+	background: #3498db;
+	font-weight: bold;
+	line-height: 22px;
+}
+.word4{
+	width: 423px;
+	height: 22px;
+	font-size: 12px;
+	color: #ffffff;
+	float: left;
+	background: #b2ec2f;
+	font-weight: bold;
+	line-height: 22px;
+}
+.word5{
+	width: 450px;
+	height: 22px;
+	font-size: 12px;
+	color: #ffffff;
+	float: left;
+	background: #b2ec2f;
+	font-weight: bold;
+	line-height: 22px;
+}
+
+/* 技能结束 */
+/* 项目展示 */
+.prodjct{
+	width: 100%;
+	height: 1030px;
+    background: url('../img/2345_image_file_copy_7.jpg') no-repeat center;
+    background-size: cover;
+}
+.swip{
+	width: 1146px;
+	height: 100%;
+	margin: 0 auto;
+	
+	overflow: hidden;
+}
+.myprogoct{
+	width: 224px;
+	height: 43px;	
+	margin: 0 auto;
+	margin-top: 50px;
+	font-size: 43px;
+	line-height: 43px;
+	color: red;
+	margin-bottom: 30px;
+}
+.projc{
+
+	width: 492px;
+	height: 24px;
+	
+	margin: 0 auto;
+    
+}
+.projc li{
+	
+	font-size: 20px;
+	line-height: 24px;
+	float: left;
+	margin-right: 20px;
+	color: #979797;
+	font-weight: bold;
+	
+	
+	/* //text-shadow:0 0 10px,0 0 500px; */
+}
+.projc li:hover{
+	color: yellow;
+text-shadow:0 0 2px,0 0 2px;
+}
+.-pro{
+	width: 1280px;
+	height: 583px;
+	
+	margin-top: 70px;
+}
+.-pro li{
+	width: 350px;
+	height: 280px;
+	border-radius: 40px;
+	float: left;
+	margin-left: 13px;
+	background: url('../img/2345_image_file_copy_2.png') no-repeat center;
+	background-size: cover;
+	box-shadow: 10px 10px 10px #73663b;
+}
+.-pro li:hover{
+	box-shadow: 10px 10px 10px yellow;
+}
+.-pro li:nth-child(1,4){
+    margin-left: 0;  
+}
+.-pro li:nth-child(n+4){
+	margin-top: 10px;
+}
+.text1{
+	display: block;
+	width: 137px;
+	height: 47px;
+	
+	margin: 0 auto;
+	margin-top: 80px;
+	text-align: center;
+	font-size: 35px;
+	 font-family:"Arial","Microsoft YaHei";
+	 color: black;
+}
+
+  
+
+/* 项目展示结束 */
+/* 底部开始 */
+.lastdiv{
+	width: 100%;
+	height: 195px;
+	background: black;
+	float: left;
+	overflow: hidden;
+
+}
+.ps{
+	width: 132px;
+	height: 20px;
+	
+	margin: 0 auto;
+	margin-top: 93px;
+	padding-bottom: 20px;
+}
+.ps1{
+	width: 12px;
+	height: 17px;
+	background: url('../img/pic1_03.png') no-repeat 0 0;
+	float: left;
+}
+.ps2{
+	width: 22px;
+	height: 13px;
+	background: url('../img/pics1_11.png') no-repeat 0 0;
+	float: left;
+	margin-top: 2px;
+	margin-left: 19px;
+}
+.ps3{
+	width: 17px;
+	height: 13px;
+	float: left;
+	background: url('../img/pisac1_11.png') no-repeat 0 0;
+    margin-left: 19px;
+    margin-top: 2px;
+}
+.ps4{
+	width: 17px;
+	height: 17px;
+	float: left;
+	background: url('../img/dsdad_09.png') no-repeat 0 0;
+	margin-left: 19px;
+	margin-top: 1px;
+}
+.number{
+	width: 298px;
+	height: 20px;
+	
+   font-size: 10px;
+   color: #888888;
+	
+	margin: 0 auto;
+	text-align: center;
+
+}
+/* 底部结束 
